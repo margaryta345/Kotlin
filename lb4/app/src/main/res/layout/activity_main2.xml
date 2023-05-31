@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button2"
+        android:layout_width="315dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/gradient"
+        android:text="я тут"
+        android:visibility="visible" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_weight="2"
+        android:buttonTint="#CF1919"
+        android:checked="false"
+        android:clickable="true"
+        android:focusable="auto"
+        android:text="так" />
+
+    <ImageView
+        android:orientation="horizontal"
+        android:id="@+id/imageView2"
+        android:layout_width="346dp"
+        android:layout_height="284dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+</LinearLayout>
